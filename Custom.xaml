@@ -1,0 +1,66 @@
+﻿<local:MyCard Title="欢迎" Margin="0,0,0,15" CanSwap="False" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="18"
+                    Text="你好，这里是 Carry。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="18"
+                    Text="终于从塘下中学逃出来了哈哈哈，" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="18"
+                    Text="下面是我写的教程，希望对新手有帮助。" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="基本功能介绍" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="16"
+                    Text="如你所见，这是 PCL2 的主页面。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="16"
+                    Text="如果你不喜欢正在播放的音乐，可以在右下角的播放按钮处操作。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="16"
+                    Text="如果想更换或删除音乐，参见下面的高级选项。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="16"
+                    Text="如果你不喜欢背景，也可以这样操作。" />
+        <local:MyHint Margin="0,6,0,2" IsWarn="False"
+                    Text="可以拖动 PCL2 窗口来调整窗口大小。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="16"
+                    Text="在左边可以修改你的皮肤、玩家名，你甚至可以使用 LittleSkin 来弄些好玩的皮肤和披风。详情:" />
+        <local:MyButton Margin="0,4,0,10" Height="35" HorizontalAlignment="Left" Padding="25,0,25,0"
+                    Text="点击查看 LittleSkin" EventType="打开网页" EventData="manual.littlesk.in" />
+        <TextBlock TextWrapping="Wrap" Margin="0,6,0,4" FontSize="16"
+                    Text="左下角是启动游戏、选择游戏版本和游戏选项。顾名思义。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="16"
+                    Text="可以在上方的“下载”选项卡中找到你想玩的版本。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="16"
+                    Text="如果你还想安装 Optfine、Fabric 或 Forge 和 mod，可以在“更多”选项卡里找对应的安装指南。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="16"
+                    Text="一般来说，Carry 提供的版本会在版本选择或“下载”选项卡---”整合包“选项卡 中的搜索框中输入 CarryCoop 即可。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="16"
+                    Text="如果网络环境差，可以点击下面这个按钮访问蓝奏云。" />
+        <local:MyButton Margin="0,4,0,10" Height="35" HorizontalAlignment="Left" Padding="25,0,25,0"
+                    Text="点击访问蓝奏云" EventType="打开网页" EventData="https://wwpd.lanzouk.com/b00rncjmej" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="简单联机指南" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="16"
+                    Text="启动游戏后，进入“多人游戏”，" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="16"
+                    Text="在“添加服务器”中输入我给你的 IP，" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="16"
+                    Text="添加之后，在服务器列表里能看到这个服务器。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="16"
+                    Text="双击就可以进入。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="16"
+                    Text="如果无法连接成功，联系我。" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="其他链接" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="16"
+                    Text="下面是几个常用的网站：" />
+        <local:MyButton Margin="0,4,0,10" Height="35" HorizontalAlignment="Left" Padding="25,0,25,0"
+                    Text="点击访问 mcmod.cn" EventType="打开网页" EventData="https://mcmod.cn" />
+        <local:MyButton Margin="0,4,0,10" Height="35" HorizontalAlignment="Left" Padding="25,0,25,0"
+                    Text="点击访问 curseforge.com" EventType="打开网页" EventData="https://www.curseforge.com" />
+        <local:MyButton Margin="0,4,0,10" Height="35" HorizontalAlignment="Left" Padding="25,0,25,0"
+                    Text="点击访问 littleskin.cn" EventType="打开网页" EventData="https://littleskin.cn" />
+    </StackPanel>
+</local:MyCard>
